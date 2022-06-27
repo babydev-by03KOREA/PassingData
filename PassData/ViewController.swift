@@ -11,6 +11,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
     }
     
+    @IBOutlet weak var dataLabel: UILabel!
+    
+    @IBAction func moveToInstance(_ sender: Any) {
+        let detailVC = InstanceDetailViewController(nibName: "InstanceDetailViewController", bundle: nil)
+         
+        detailVC.mainVC = self
+        
+        self.present(detailVC, animated: true, completion: nil)
+    }
+    
+//  2. segue
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 //      실행이 될 때(화살표)
         if segue.identifier == "segueDetail" {
@@ -35,6 +46,7 @@ class ViewController: UIViewController {
         detailVC.someString = "request.getParameter(String)"
 //      화면에 올라갈 준비가 되어야만 생성됨
     }
+    
     
 }
 

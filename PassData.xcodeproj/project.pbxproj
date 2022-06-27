@@ -19,6 +19,8 @@
 		9C609DB02869B89C0026E548 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609DAE2869B89C0026E548 /* DetailViewController.swift */; };
 		9C609DB12869B89C0026E548 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C609DAF2869B89C0026E548 /* DetailViewController.xib */; };
 		9C609DB32869C9320026E548 /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609DB22869C9320026E548 /* SegueDetailViewController.swift */; };
+		9C609DB62869CF1D0026E548 /* InstanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609DB42869CF1D0026E548 /* InstanceDetailViewController.swift */; };
+		9C609DB72869CF1D0026E548 /* InstanceDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C609DB52869CF1D0026E548 /* InstanceDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		9C609DAE2869B89C0026E548 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9C609DAF2869B89C0026E548 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		9C609DB22869C9320026E548 /* SegueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDetailViewController.swift; sourceTree = "<group>"; };
+		9C609DB42869CF1D0026E548 /* InstanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstanceDetailViewController.swift; sourceTree = "<group>"; };
+		9C609DB52869CF1D0026E548 /* InstanceDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstanceDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 				9C609DAE2869B89C0026E548 /* DetailViewController.swift */,
 				9C609DAF2869B89C0026E548 /* DetailViewController.xib */,
 				9C609D822869B7710026E548 /* Main.storyboard */,
+				9C609DB42869CF1D0026E548 /* InstanceDetailViewController.swift */,
+				9C609DB52869CF1D0026E548 /* InstanceDetailViewController.xib */,
 				9C609D852869B7710026E548 /* Assets.xcassets */,
 				9C609D872869B7710026E548 /* LaunchScreen.storyboard */,
 				9C609D8A2869B7710026E548 /* Info.plist */,
@@ -243,6 +249,7 @@
 				9C609D892869B7710026E548 /* LaunchScreen.storyboard in Resources */,
 				9C609D862869B7710026E548 /* Assets.xcassets in Resources */,
 				9C609D842869B7710026E548 /* Main.storyboard in Resources */,
+				9C609DB72869CF1D0026E548 /* InstanceDetailViewController.xib in Resources */,
 				9C609DB12869B89C0026E548 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +279,7 @@
 				9C609D7D2869B7710026E548 /* AppDelegate.swift in Sources */,
 				9C609DB32869C9320026E548 /* SegueDetailViewController.swift in Sources */,
 				9C609D7F2869B7710026E548 /* SceneDelegate.swift in Sources */,
+				9C609DB62869CF1D0026E548 /* InstanceDetailViewController.swift in Sources */,
 				9C609DB02869B89C0026E548 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
