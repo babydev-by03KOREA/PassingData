@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C28250D286A12E30080D89E /* DelegateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C28250B286A12E30080D89E /* DelegateDetailViewController.swift */; };
+		9C28250E286A12E30080D89E /* DelegateDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C28250C286A12E30080D89E /* DelegateDetailViewController.xib */; };
 		9C609D7D2869B7710026E548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609D7C2869B7710026E548 /* AppDelegate.swift */; };
 		9C609D7F2869B7710026E548 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609D7E2869B7710026E548 /* SceneDelegate.swift */; };
 		9C609D812869B7710026E548 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609D802869B7710026E548 /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C28250B286A12E30080D89E /* DelegateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegateDetailViewController.swift; sourceTree = "<group>"; };
+		9C28250C286A12E30080D89E /* DelegateDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DelegateDetailViewController.xib; sourceTree = "<group>"; };
 		9C609D792869B7710026E548 /* PassData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C609D7C2869B7710026E548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C609D7E2869B7710026E548 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +116,8 @@
 				9C609D7C2869B7710026E548 /* AppDelegate.swift */,
 				9C609D7E2869B7710026E548 /* SceneDelegate.swift */,
 				9C609D802869B7710026E548 /* ViewController.swift */,
+				9C28250B286A12E30080D89E /* DelegateDetailViewController.swift */,
+				9C28250C286A12E30080D89E /* DelegateDetailViewController.xib */,
 				9C609DB22869C9320026E548 /* SegueDetailViewController.swift */,
 				9C609DAE2869B89C0026E548 /* DetailViewController.swift */,
 				9C609DAF2869B89C0026E548 /* DetailViewController.xib */,
@@ -246,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C28250E286A12E30080D89E /* DelegateDetailViewController.xib in Resources */,
 				9C609D892869B7710026E548 /* LaunchScreen.storyboard in Resources */,
 				9C609D862869B7710026E548 /* Assets.xcassets in Resources */,
 				9C609D842869B7710026E548 /* Main.storyboard in Resources */,
@@ -276,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C609D812869B7710026E548 /* ViewController.swift in Sources */,
+				9C28250D286A12E30080D89E /* DelegateDetailViewController.swift in Sources */,
 				9C609D7D2869B7710026E548 /* AppDelegate.swift in Sources */,
 				9C609DB32869C9320026E548 /* SegueDetailViewController.swift in Sources */,
 				9C609D7F2869B7710026E548 /* SceneDelegate.swift in Sources */,
