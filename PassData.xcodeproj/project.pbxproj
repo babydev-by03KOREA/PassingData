@@ -18,6 +18,7 @@
 		9C609DA02869B7710026E548 /* PassDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609D9F2869B7710026E548 /* PassDataUITestsLaunchTests.swift */; };
 		9C609DB02869B89C0026E548 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609DAE2869B89C0026E548 /* DetailViewController.swift */; };
 		9C609DB12869B89C0026E548 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C609DAF2869B89C0026E548 /* DetailViewController.xib */; };
+		9C609DB32869C9320026E548 /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C609DB22869C9320026E548 /* SegueDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9C609D9F2869B7710026E548 /* PassDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		9C609DAE2869B89C0026E548 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9C609DAF2869B89C0026E548 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		9C609DB22869C9320026E548 /* SegueDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				9C609D7C2869B7710026E548 /* AppDelegate.swift */,
 				9C609D7E2869B7710026E548 /* SceneDelegate.swift */,
 				9C609D802869B7710026E548 /* ViewController.swift */,
+				9C609DB22869C9320026E548 /* SegueDetailViewController.swift */,
 				9C609DAE2869B89C0026E548 /* DetailViewController.swift */,
 				9C609DAF2869B89C0026E548 /* DetailViewController.xib */,
 				9C609D822869B7710026E548 /* Main.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				9C609D812869B7710026E548 /* ViewController.swift in Sources */,
 				9C609D7D2869B7710026E548 /* AppDelegate.swift in Sources */,
+				9C609DB32869C9320026E548 /* SegueDetailViewController.swift in Sources */,
 				9C609D7F2869B7710026E548 /* SceneDelegate.swift in Sources */,
 				9C609DB02869B89C0026E548 /* DetailViewController.swift in Sources */,
 			);
