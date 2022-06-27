@@ -6,6 +6,7 @@ import UIKit
 // 2. segue
 // 3. instance
 // 4. delegate pattern 대리/위임
+// 5.
 
 class ViewController: UIViewController {
 
@@ -48,7 +49,8 @@ class ViewController: UIViewController {
         detailVC.someString = "request.getParameter(String)"
 //      화면에 올라갈 준비가 되어야만 생성됨
     }
-    
+
+// 호출/구현부가 나누어져있음
     @IBAction func moveToDelegate(_ sender: Any) {
          let detailVC = DelegateDetailViewController(nibName: "DelegateDetailViewController", bundle: nil)
         detailVC.delegate = self
@@ -56,6 +58,17 @@ class ViewController: UIViewController {
 //      명시된 타입을 준수해야만 합니다.
         self.present(detailVC, animated: true, completion: nil)
     }
+    
+    @IBAction func moveToClosure(_ sender: Any) {
+        let detailVC = ClosureDetailViewController(nibName: "ClosureDetailViewController", bundle: nil)
+//  return받아서 호출
+        detailVC.myClosure = { str in
+            self.dataLabel.text = str
+        }
+        
+        self.present(detailVC, animated: true, completion: nil)
+    }
+    
     
 }
 
